@@ -1,0 +1,7 @@
+jQuery UI splitpane plugin
+==========================
+
+This a first draft of an experimental split panel jquery ui widget.
+Splits a block element into two resizable panels.
+
+TODO: the rest of this README
