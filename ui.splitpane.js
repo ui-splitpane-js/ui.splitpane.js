@@ -4,6 +4,8 @@
  *	Creates a simple split panel with 2 resizable panels, reminiscent of
  *	the Java® Swing® split pane widget thing.
  *
+ *	This file is part of ui.splitpane.js
+ *
  *	Copyright 2008, 2011 Andrew Thompson
  *
  *	This program is free software: you can redistribute it and/or modify
