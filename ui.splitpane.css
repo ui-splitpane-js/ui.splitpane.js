@@ -1,0 +1,35 @@
+/*
+ *	Styles for the splitpane jQuery UI plugin
+ *
+ *	Creates a simple split panel with 2 resizable panels, reminiscent of
+ *	the Java® Swing® split pane widget thing.
+ *
+ *	This file is part of ui.splitpane.js
+ *
+ *	Copyright 2008, 2011 Andrew Thompson
+ *
+ *	This program is free software: you can redistribute it and/or modify
+ *	it under the terms of the GNU General Public License as published by
+ *	the Free Software Foundation, either version 3 of the License, or
+ *	(at your option) any later version.
+ *
+ *	This program is distributed in the hope that it will be useful,
+ *	but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *	GNU General Public License for more details.
+ *
+ *	You should have received a copy of the GNU General Public License
+ *	along with this program. If not, see http://www.gnu.org/licenses/gpl.txt
+ *
+ *
+ */
+.majik_split_pane { overflow: auto; border: solid 1px darkGray; }
+.majik_split_pane_vertical { float:left } /* XXX: need a clear-fixing element here too */
+.majik_split_pane_grab { background-color: lightGray; }
+.majik_split_pane_grab.majik_split_pane_vertical { width: 5px; }
+.majik_split_pane_grab.majik_split_pane_horizontal { height: 6px; }
+a.majik_split_pane_grab { display: block; }
+a.majik_split_pane_grab:hover { background-color: gray; }
+.majik_split_pane_grab.majik_split_pane_vertical { cursor: w-resize; }
+.majik_split_pane_grab.majik_split_pane_horizontal { cursor: s-resize; }
+.majik_split_pane_grab.majik_split_pane_resizing { background-color: gray; }
